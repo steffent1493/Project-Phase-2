@@ -11,3 +11,117 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Home {
+text-align: center;
+}
+
+.cardTile:hover {
+  transform: scale(1.35);
+}
+
+.cardTile img:active {
+  transform: scale(.9);
+}
+
+.navbar {
+  text-align: center;
+  display: flex;
+  background: linear-gradient(#ff934c, #adadad);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  height: 120px;
+  
+}
+
+.searchbarimg {
+background-image: url(./Components/images/mtglogo.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 300px;
+text-align: center;
+
+} 
+
+.searchbar {
+margin-top: 220px;
+ 
+}
+
+.cardTile {
+  display: inline;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+  float: left;
+  margin: 10px;
+  padding: 1%;
+  transition: 0.75s;
+  opacity: 1;
+  height:330px;
+  width: 250px;
+  overflow:hidden;
+}
+
+.myDeckCard {
+  display: inline;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+  float: left;
+  margin: 1px;
+  padding: 1%;
+  transition: 0.75s;
+  opacity: 1;
+  height:330px;
+  width: 250px;
+  overflow:hidden;
+  border:black;
+}
+
+.img {
+  width:  100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.deckbuilder {
+  background-image: url(./Components/images/mtgbackground2.jpg);
+  border-style:solid;
+  border-color:#000000;
+  border-width:3px;
+}
+
+.homePage {
+  background-image: url(./Components/images/mtgbackground3.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  height:1600px;
+  border-style:solid;
+  border-color:#000000;
+  border-width:2px;
+}
+
+.homebtn:hover {
+  transform: scale(1.1);
+}
+
+.deckbuilderbtn:hover {
+  transform: scale(1.1);
+}
+
+.mydeckbtn:hover {
+  transform: scale(1.1);
+}
+
+
+.homePageReadMe {
+  background-color: silver;
+  height: 160px;
+  width: 800px;
+  border-style:solid;
+  border-color:#242424;
+  border-width:2px;
+  margin-top: 50px;
+  margin-left: 30%;
+}
+
